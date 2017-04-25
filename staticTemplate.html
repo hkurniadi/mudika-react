@@ -3,13 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <title>Mudika Vancouver - Template</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery Plugin -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <nav>
-      
+    <!-- <NavBar> Component -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <header class="navbar-header">
+          <!-- TODO Add Mudika Logo -->
+          <!-- The button element and its attributes are to activate the toggle feature -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="navbar-brand">Mudika Vancouver</h1>
+        </header>
+        <!-- Content wrapped within the below div will be collapsed into the hamburger button-->
+        <div class="collapse navbar-collapse" id="topNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Happening in Mudika</a></li>
+            <li><a href="#">Ministries</a></li> 
+            <!-- User can register in Join Us section -->
+            <li><a href="#">Join Us</a></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container-fluid -->
     </nav>
+    <!-- End <NavBar> Component -->
     <main>
-
+        <header>
+            <section>
+                <h1>Welcome to Mudika UKIBC</h1>
+                <p>We are ....</p>
+            </section>
+            <hr>
+        </header>
+        <section>
+            <h1>What's happening</h1>
+            <hr>
+        </section>
+        <section>
+            <h1>Ministries</h1>
+            <hr>
+        </section>
+        <section>
+            <h1>Join Us</h1>
+            <button>Sign Up</button>
+            <hr>
+        </section>
     </main>
+    <footer>
+        <h1>Footer</h1>
+        <p>Made by: Mudika Vancouver</p>
+    </footer>
   </body>
 </html>

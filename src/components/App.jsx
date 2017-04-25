@@ -6,9 +6,9 @@ import NavBar from './NavBar.jsx';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <NavBar />
-        <h1>Hello React </h1>
+        <h1>Welcome to Mudika Vancouver</h1>
       </div>
     );
   }

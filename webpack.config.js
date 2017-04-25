@@ -52,10 +52,10 @@ module.exports = {
     extensions: ['', '.js', '.jsx', '.json']
   },
   // If using Node.js API, do not need to use this config
-  // devServer: {
-  //   inline: true, // <-- enables 'Live Reloading'
-  //   hot: true, // <-- enables HMR on the server
-  // },
+  devServer: {
+    inline: true, // <-- enables 'Live Reloading'
+    hot: true, // <-- enables HMR on the server
+  },
   // Additional node modules, usually work on the resulting bundle
   plugins: [
       // OccurenceOrderPlugin is needed for webpack 1.x only 

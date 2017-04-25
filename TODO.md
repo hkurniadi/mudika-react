@@ -8,11 +8,12 @@
 
 ### User Stories
 As a [user] I want...
-1. choir/mm coordinator, to set practice schedule and send the schedule to members
-2. cg leaders, to see their members and send info to them
-2. members, to register for mudika events (e.g. retreat)
-3. members/visitors, to see what's happening in the community (e.g. upcoming events)
-4. members/visitors, to see community history (e.g. what we do, ministries, media, regular activities, team)
+1. users can login 
+2. choir/mm coordinator, to set practice schedule and send the schedule to members
+3. cg leaders, to see their members and send info to them
+4. members, to register for mudika events (e.g. retreat)
+5. members/visitors, to see what's happening in the community (e.g. upcoming events)
+6. members/visitors, to see community history (e.g. what we do, ministries, media, regular activities, team)
 
 
 ### Future Implementations
